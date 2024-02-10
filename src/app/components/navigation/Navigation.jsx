@@ -28,8 +28,9 @@ function Navigation() {
           </div>
         </div>
         <div className="css-9ul4v3">
-          <button><Image src={vertical} alt="" /></button>
           <Image className="bar" src={Home} alt="" />
+                    <button><Image src={vertical} alt="" /></button>
+
           <button>Login / Membership</button>
         </div>
       </div>
