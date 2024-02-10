@@ -3,11 +3,16 @@
 */
 const nextConfig = {
   images: {
-    loader: 'imgix', // or 'default', or a custom loader if implemented
+    loader: 'imgix', 
     path: '',
   },
-  target: 'experimental-serverless-trace', // or 'serverless'
- assetPrefix: './', // or remove this line if not needed
+
+  output: 'export',
+  assetPrefix: './',
 };
 
 export default nextConfig;
+
+
+
+
