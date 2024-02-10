@@ -1,0 +1,20 @@
+{
+  "name": "testval",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "gh-pages": "^6.1.1",
+    "git": "^0.1.5",
+    "next": "^14.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18",
+    "swiper": "^11.0.6",
+    "swiper-react": "^1.0.0"
+  }
+}
