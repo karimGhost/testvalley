@@ -6,8 +6,6 @@ const nextConfig = {
     loader: 'imgix', 
     path: '',
   },
-
-  output: 'export',
   assetPrefix: './',
 };
 
