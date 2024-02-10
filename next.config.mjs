@@ -3,12 +3,11 @@
 */
 const nextConfig = {
   images: {
-    loader: 'akamai',
+    loader: 'imgix', // or 'default', or a custom loader if implemented
     path: '',
- 
   },
-  output: 'export',
-  assetPrefix: './',
+  target: 'experimental-serverless-trace', // or 'serverless'
+ assetPrefix: './', // or remove this line if not needed
 };
 
 export default nextConfig;
